@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backyard Brewed Espresso Bar — Ajax, ON</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+        body{background:#1a1a1a;color:#f5f5f5;line-height:1.6}
+        .hero{background:linear-gradient(135deg,#2d1810,#1a1a1a);padding:100px 20px;text-align:center}
+        .hero h1{font-size:3rem;margin-bottom:15px;color:#d4a574}
+        .hero p{font-size:1.3rem;color:#b8956a;max-width:600px;margin:0 auto}
+        .cta-btn{display:inline-block;margin-top:30px;padding:15px 40px;background:#d4a574;color:#1a1a1a;text-decoration:none;font-weight:bold;border-radius:50px;transition:0.3s}
+        .cta-btn:hover{background:#b8956a;transform:translateY(-2px)}
+        .section{padding:60px 20px;max-width:1000px;margin:0 auto}
+        .section h2{color:#d4a574;font-size:2rem;margin-bottom:30px;text-align:center}
+        .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;margin-top:30px}
+        .card{background:#2a2a2a;padding:30px;border-radius:15px;text-align:center}
+        .card h3{color:#d4a574;margin-bottom:10px}
+        .hours{background:#2d1810;padding:40px;text-align:center;border-radius:15px;margin-top:30px}
+        .hours-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;margin-top:20px}
+        .contact{text-align:center;padding:60px 20px;background:#2a2a2a}
+        .contact a{color:#d4a574;text-decoration:none;font-size:1.2rem}
+        footer{text-align:center;padding:30px;color:#666;font-size:0.9rem}
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <h1>Backyard Brewed Espresso Bar</h1>
+        <p>Where viral flavors meet backyard warmth. Home of the Iced Baklava Latte, Cookie Croissant & Korean Sponge Toffee Latte — right here in Ajax, Ontario.</p>
+        <a href="#contact" class="cta-btn">Visit Us Today</a>
+    </section>
+
+    <section class="section">
+        <h2>Our Signature Drinks & Bakes</h2>
+        <div class="services">
+            <div class="card">
+                <h3>☕ Iced Baklava Latte</h3>
+                <p>The viral sensation. Rich espresso layered with honey, pistachio, and baklava-inspired sweetness.</p>
+            </div>
+            <div class="card">
+                <h3>🍪 Cookie Croissant</h3>
+                <p>Our famous pastry — stuffed and topped with chocolate chip cookie dough. A must-try.</p>
+            </div>
+            <div class="card">
+                <h3>🍯 Korean Sponge Toffee Latte</h3>
+                <p>Sweet, bold, and uniquely addictive. A TikTok favorite for good reason.</p>
+            </div>
+            <div class="card">
+                <h3>🍏 Gourmet Caramel Apples</h3>
+                <p>Made with Durham Region's finest apples. A perfect treat, any time of day.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Hours</h2>
+        <div class="hours">
+            <div class="hours-grid">
+                <div><strong>Monday – Thursday</strong><br>10 AM – 8 PM</div>
+                <div><strong>Friday – Sunday</strong><br>10 AM – 10 PM</div>
+            </div>
+            <p style="margin-top:20px;color:#b8956a">*Hours may vary — call ahead to confirm</p>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Visit the Backyard</h2>
+        <p>📍 109 Old Kingston Road Unit 9, Ajax, ON</p>
+        <p>📞 <a href="tel:9056863636">(905) 686-3636</a></p>
+        <p style="margin-top:20px;color:#888;font-size:0.95rem">Located inside Biscuits to Baskets — your hidden gem in Ajax.</p>
+    </section>
+
+    <footer>
+        <p>Backyard Brewed Espresso Bar · Ajax, Ontario · Proudly serving Durham Region</p>
+    </footer>
+</body>
+</html>
